@@ -2,11 +2,11 @@ using System;
 
 namespace SchedulerProject.Models
 { 
-    public class CalendarDbContext : DbContext
-        {
-            public DbSet<CalendarEvent> Events { get; set; }
-            public CalendarDbContext(DbContextOptions<DbContext> options) : base(options) { }
-        }
+    //public class CalendarDbContext : DbContext
+    //    {
+    //        public DbSet<CalendarEvent> Events { get; set; }
+    //        public CalendarDbContext(DbContextOptions<DbContext> options) : base(options) { }
+    //    }
     public class CalendarEvent
     {
         public int id { get; set; }
